@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Kameron|Oxygen|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="name-block">
+                <h1 class="name-title">
+                    <p>Andrew Jolivette</p>
+                </h1>
+            </div>
+            <div class="nav-linksBlock">
+                <p class="nav-item"><a href="./index.html">About Me</a></p>
+                <p class="nav-item"><a href="./portfolio.html">Portfolio</a></p>
+                <p class="nav-item"><a href="./contact.html">Contact</a></p>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------------------------->
+
+    <div class="content">
+        <div class="inner-content">
+            <h1 class="content-header">Contact Me</h1>
+            <hr noshade color="black" size="1">
+            <form action="#">
+                <div class="form-container">
+                        <label for="msg">First Name:</label>
+                        <br>
+                    <input required type="text" onfocus="this.value=''" name="first_name">
+                </div>
+                <div class="form-container">
+                        <label for="last_name">Last Name:</label>
+                        <br>
+                    <input required type="text" id="last_name" onfocus="this.value=''" name="last_name">
+                </div>
+                <div class="form-container">
+                        <label for="email">E-mail:</label>
+                        <br>
+                    <input required type="text" id="email" onfocus="this.value=''" name="email">
+                </div>
+                <div class="form-container">
+                    <label for="msg">Message:</label>
+                    <br>
+                    <textarea required id="msg" rows="15" cols="80" wrap="soft" name="message"></textarea>
+                </div>
+                <div class="form-submit">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ----------------------------->
+
+    <footer>
+        <div class="footer-itemBlock">
+            <p class="footer-item">(c)2019 Andrew Jolivette</p>
+        </div>
+    </footer>
+</body>
+
+</html>
